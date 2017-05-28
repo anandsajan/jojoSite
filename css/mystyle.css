@@ -1,0 +1,15 @@
+#compLogo{
+    height:100%;
+    width:100%;
+    margin-top: 10px;
+}
+
+#companyName{
+    color:rgba(146, 197, 0, 0.8);
+     margin-top: 10px;
+     font-family: "Times New Roman", Times, serif;
+}
+
+#contactText{
+    text-align: center;
+}
