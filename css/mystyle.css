@@ -13,3 +13,73 @@
 #contactText{
     text-align: center;
 }
+.all-title-box{
+	background:url(../img/inner-bg.jpg);
+	position: relative;
+	padding: 200px 0 70px 0px;
+	margin-bottom: 0px;
+}
+
+.all-title-box::before{
+	content: "";
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.all-title-box .container{
+	position: relative;
+}
+
+.all-title-box h2{
+	color: #ffffff;
+	padding: 0px;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+#breadcrumbs {
+	background: #a8cf45;
+	padding: 10px 20px;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #888;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#breadcrumbs:hover{
+	background: #076799;
+}
+
+#breadcrumbs ul {
+    margin: 0;
+}
+#breadcrumbs ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 10px;
+	color: #ffffff;
+}
+#breadcrumbs:hover ul li a{
+	color: #a8cf45;
+}
+#breadcrumbs ul li:first-child::before {
+	display: none;
+}
+#breadcrumbs ul li::before {
+    content: "\f105";
+    font-family: "FontAwesome";
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
